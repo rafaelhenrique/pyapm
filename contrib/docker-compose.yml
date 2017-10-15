@@ -34,6 +34,13 @@ services:
     volumes:
       - ./settings/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
 
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:5.6.3
+    container_name: filebeat
+    volumes:
+      - ./settings/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./logs:/mnt/log
+
 volumes:
   esdata:
     driver: local

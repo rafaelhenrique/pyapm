@@ -11,8 +11,8 @@ stop:
 
 destroy:
 	@echo "Stopping containers..."
-	@docker stop elasticsearch kibana logstash
+	@docker stop elasticsearch kibana logstash filebeat
 	@echo "Removing containers..."
-	@docker rm elasticsearch kibana logstash
+	@docker rm elasticsearch kibana logstash filebeat
 	@rm -rf contrib/esdata
 

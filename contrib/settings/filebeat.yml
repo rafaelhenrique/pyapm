@@ -1,0 +1,23 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /mnt/log/test.log
+  json.message_key: event
+  json.keys_under_root: true
+  fields:
+    type: is_json
+  tags: [
+    "test"
+  ]
+
+- input_type: log
+  paths:
+    - /mnt/log/test-not-json.log
+  fields:
+    type: is_text
+  tags: [
+    "test"
+  ]
+
+output.logstash:
+  hosts: ["logstash:5044"]
