@@ -1,7 +1,7 @@
 filebeat.prospectors:
 - input_type: log
   paths:
-    - /mnt/log/test.log
+    - /mnt/log/json.log
   json.message_key: event
   json.keys_under_root: true
   fields:
@@ -12,7 +12,7 @@ filebeat.prospectors:
 
 - input_type: log
   paths:
-    - /mnt/log/test-not-json.log
+    - /mnt/log/text.log
   fields:
     type: is_text
   tags: [
