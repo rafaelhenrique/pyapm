@@ -1,0 +1,64 @@
+ 
+ -------------- celery@ip v4.0.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux 2017-09-28 00:06:40
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         project:0x7f0ca86664e0
+- ** ---------- .> transport:   abc
+- ** ---------- .> results:     abc
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . project.commons.tasks.task_1
+  . project.commons.tasks.task_2
+  . project.commons.tasks.task_3
+
+ 
+ -------------- celery@ip v4.0.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux 2017-09-28 14:45:20
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         project:0x7f63265ed518
+- ** ---------- .> transport:   abc
+- ** ---------- .> results:     abc
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . project.commons.tasks.task_1
+  . project.commons.tasks.task_2
+  . project.commons.tasks.task_3
+
+
+ 
+ -------------- celery@ip v4.0.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux 2017-09-28 16:48:49
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         project:0x7f20b5488518
+- ** ---------- .> transport:   abc
+- ** ---------- .> results:     abc
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: ON
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . project.commons.tasks.task_1
+  . project.commons.tasks.task_2
+  . project.commons.tasks.task_3
+
