@@ -28,7 +28,7 @@ filebeat.prospectors:
   fields:
     type: is_text
   tags: [
-    "test"
+    "test", "nginx-access-log"
   ]
 
 output.logstash:
