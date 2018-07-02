@@ -7,7 +7,7 @@ filebeat.prospectors:
   fields:
     type: is_json
   tags: [
-    "test"
+    "json-log"
   ]
 
 - input_type: log
@@ -16,7 +16,7 @@ filebeat.prospectors:
   fields:
     type: is_multiline
   tags: [
-    "test"
+    "multiline-log"
   ]
   multiline.pattern: '^[[:space:]-\[]'
   multiline.negate: false
@@ -28,7 +28,7 @@ filebeat.prospectors:
   fields:
     type: is_text
   tags: [
-    "test", "nginx-access-log"
+    "text-log"
   ]
 
 output.logstash:

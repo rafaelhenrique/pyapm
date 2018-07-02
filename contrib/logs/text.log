@@ -1,1 +1,2 @@
-1.2.3.4 - - [15/Oct/2017:21:38:50 +0000] "GET /health/ HTTP/1.1" 200 79 "-" "agent"
+1.2.3.4 - - [05/Dec/2017:20:50:22 -0200] "GET /health/ HTTP/1.1" 200 79 "-" "agent"
+10.10.249.139 - - [05/Dec/2017:20:50:22 -0200] "GET /v1/test/123/test/ HTTP/1.1" 200 1211 "http://my-url.site.com/test/tests" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36" 0.166 0.166 .

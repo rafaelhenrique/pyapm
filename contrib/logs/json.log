@@ -1,1 +1,5 @@
 {"levelname": "INFO", "asctime": "2017-10-03 11:36:42,555", "name": "application", "module": "<ipython-input-3-1f2bfaa444ce>", "funcName": "<module>", "lineno": 4, "message": "\ntraceback\friend\n"}
+{"levelname": "INFO", "asctime": "2017-12-07 14:10:31,916", "name": "app.apps.core", "module": "tasks", "funcName": "health_celery_beat", "lineno": 10, "message": "Health check celery beat: name=app.health_celery_beat", "tztime": "2017-12-07T16:10:31.916720Z"}
+{"levelname": "INFO", "asctime": "2017-12-07 14:12:14,513", "name": "app.apps.core", "module": "serializers", "funcName": "create", "lineno": 772, "message": "test 123", "tztime": "2017-12-07T16:12:14.513305Z"}
+{"levelname": "INFO", "asctime": "2017-12-07 14:12:18,694", "name": "app.apps.orders", "module": "serializers", "funcName": "create", "lineno": 772, "message": "test 456", "tztime": "2017-12-07T16:12:18.694437Z"}
+
